@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.player-turn {
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;    
+    width: 200px;
+    margin: 40px auto;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cell {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+.new-game-btn, .reset-btn {
+    margin-top: 20px;
+    padding: 6px 14px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
